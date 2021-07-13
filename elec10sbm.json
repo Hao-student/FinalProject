@@ -1,0 +1,46 @@
+{
+  "Data": {
+    "GraphInputFile": "graduation_project/original_networks/elec10.txt",
+    "GraphOutputFile": "graduation_project/result_networks/elec10Result.txt",
+    "GraphInputType": "NNT",
+    "GraphOutputType": "NNT",
+    "Directed": false
+  },
+  "Action": {
+    "Grow": {
+      "Start": 1080493920,
+      "Interval": 1,
+      "MaxNodes": 4300
+    }
+  },
+  "ObjectModel": [
+    {
+      "Start": 1080493920,
+      "End": 1170773260,
+      "Components": [
+        {
+          "ComponentName": "SBM",
+          "Weight": 1.0,
+	  "NumberOfCommunities": 10,
+          "Communities": [
+            {"ProportionOfNodes":4282.0, "ProbabilityOfConnectionWithinCommunity":0.99},
+            {"ProportionOfNodes":2.0, "ProbabilityOfConnectionWithinCommunity":0.0001},
+            {"ProportionOfNodes":2.0, "ProbabilityOfConnectionWithinCommunity":0.0001},
+            {"ProportionOfNodes":2.0, "ProbabilityOfConnectionWithinCommunity":0.0001},
+            {"ProportionOfNodes":2.0, "ProbabilityOfConnectionWithinCommunity":0.0001},
+            {"ProportionOfNodes":2.0, "ProbabilityOfConnectionWithinCommunity":0.0001},
+            {"ProportionOfNodes":2.0, "ProbabilityOfConnectionWithinCommunity":0.0001},
+            {"ProportionOfNodes":2.0, "ProbabilityOfConnectionWithinCommunity":0.0001},
+            {"ProportionOfNodes":2.0, "ProbabilityOfConnectionWithinCommunity":0.0001},
+            {"ProportionOfNodes":2.0, "ProbabilityOfConnectionWithinCommunity":0.0001}
+          ]
+        }
+      ]
+    }
+  ],
+  "OperationModel": {
+    "Name": "Clone",
+    "FileName": "graduation_project/elec10CloneFile.feta",
+    "Start": 1080493920
+  }
+}

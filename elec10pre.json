@@ -1,0 +1,16 @@
+{
+  "Data": {
+    "GraphInputFile": "graduation_project/original_networks/elec10.txt",
+    "GraphInputType": "NNT",
+    "Directed": false,
+    "OutputLineSeparator": " "
+  },
+  "Action": {
+    "ParseTest": {
+      "Start": 1080493920,
+      "Interval":1,
+      "MaxNodes": 4300,
+      "FileName": "graduation_project/elec10CloneFile.feta"
+    }
+  }
+}
