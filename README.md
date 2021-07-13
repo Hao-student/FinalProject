@@ -1,3 +1,5 @@
 # FinalProject - 2021
 The final project of undergraduate  
-Project title - A model of dynamic network growth using communities
+Project title - A model of dynamic network growth using communities  
+  
+Detailed code - in master branch
